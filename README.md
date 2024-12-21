@@ -14,6 +14,9 @@ This Flask project predicts heart disease risk based on user inputs. It provides
   
 ![Screenshot (42)](https://github.com/user-attachments/assets/e86b93e7-e415-4411-b5da-124d7d238b71)
 
+![Screenshot (43)](https://github.com/user-attachments/assets/5dbc9c5c-3e1b-4c55-ad36-164b070d0720)
+
+
 
 
 
