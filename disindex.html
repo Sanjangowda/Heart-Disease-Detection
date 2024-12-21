@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+	<title>CoreCare | Disease Index</title>
+</head>
+<style>
+	 #main-footer
+    {
+      color: #FFFFFF;
+      font-family: "Segoe UI";
+      background: #2B2B2B;
+      text-align: center;
+      margin-top: 75px;
+      padding: 16px;
+      bottom: 8px;
+    }
+
+    .img_holder img{
+        max-width: 100%; max-height: 100%;
+    }
+
+    .btn-file {
+    position: relative;
+    overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+</style>
+<body>
+
+	<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#"><b>RISK ASSESS</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/disindex">Disease Index</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="/heart">Heart Disease</a>
+                    </li>
+                   
+                    <li class="nav-item">
+		                <a class="nav-link" href="#">|</a>
+		            </li>
+                    <li class="nav-item">
+		                <a class="nav-link" href="/logout">Logout</a>
+		            </li>
+                    </ul>
+                </div>
+            </nav>
+
+</header>
+    <br/>
+    <br/>
+	<div class="container">
+        <h1 style="text-align:center;">CoreCare - Disease Index</h1>
+    <p style="text-align:center;">This is a directory of all the diseases that RiskAssess can generate assessments for, this index provides in depth.
+    details about the disease including its symptoms.</p>
+ 
+
+<h2>Heart Disease</h2>
+<div style="text-align: center; margin-top: 20px">
+       <img style="max-width: 600px" src="static/img/heart.png" /><br/>
+   </div>
+<h3>Overview</h3>
+<p>Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease; heart rhythm problems (arrhythmias); and heart defects you're born with (congenital heart defects), among others.<br>
+  The term "heart disease" is often used interchangeably with the term "cardiovascular disease." Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina) or stroke. Other heart conditions, such as those that affect your heart's muscle, valves or rhythm, also are considered forms of heart disease.<br>
+Many forms of heart disease can be prevented or treated with healthy lifestyle choices.</p>
+
+<h3>Symptoms</h3>
+ <ul>
+  <li>Chest pain, chest tightness, chest pressure and chest discomfort (angina)</li>
+  <li>Shortness of breath</li>
+  <li>Pain, numbness, weakness or coldness in your legs or arms if the blood vessels in those parts of your body are narrowed</li>
+  <li>Pain in the neck, jaw, throat, upper abdomen or back</li>
+</ul>
+
+<h3>Causes</h3>
+<p>Heart disease is often the result of a combination of factors, including:</p>
+<ul>
+    <li>High blood pressure (hypertension)</li>
+    <li>High cholesterol levels</li>
+    <li>Smoking and alcohol use</li>
+    <li>Obesity and poor diet</li>
+    <li>Lack of physical activity</li>
+    <li>Genetic predisposition</li>
+</ul>
+
+<h3>Prevention</h3>
+<p>Preventing heart disease involves making lifestyle changes and managing any underlying conditions. Here are some ways</p>
+<ul>
+    <li>Maintain a healthy diet rich in fruits, vegetables, and whole grains.</li>
+                <li>Exercise regularly (at least 30 minutes most days).</li>
+                <li>Quit smoking and limit alcohol consumption.</li>
+                <li>Manage stress through relaxation techniques and mindfulness.</li>
+                <li>Monitor and control blood pressure, cholesterol, and blood sugar levels.</li>
+                <li>Consult a healthcare provider for regular check-ups.</li>
+</ul>
+
+  <br>
+  <hr>
+
+	</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
