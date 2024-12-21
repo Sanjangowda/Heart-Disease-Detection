@@ -7,6 +7,8 @@ This Flask project predicts heart disease risk based on user inputs. It provides
 - Heart disease prediction based on input metrics.
 - Generate a detailed PDF report of results.
 
+  ![Screenshot (45)](https://github.com/user-attachments/assets/3a4c51d3-72db-492b-84fa-141bb15ab9d7)
+
 ## Technologies Used
 - Flask
 - Bootstrap
