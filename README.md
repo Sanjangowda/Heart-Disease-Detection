@@ -34,7 +34,7 @@ This Flask project predicts heart disease risk based on user inputs. It provides
    ```bash
    git clone https://github.com/Sanjangowda/Heart-Disease-Detection.git
 
-2. Install all the Dependencies:
+## Install all the Dependencies:
 pip install -r requirements.txt
 
 ## Run the app.py
